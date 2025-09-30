@@ -1,6 +1,9 @@
 package bases;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 public class DataTypes {
 	public static void main(String[] args) {
@@ -38,8 +41,17 @@ public class DataTypes {
 		
 		System.out.println(bdSum);
 		
+		LocalDateTime now = LocalDateTime.now();
 		
+		System.out.println(now.plusMonths(1));
 		
+		LocalDate day = LocalDate.of(2025, 1, 31);
+		
+		System.out.println(day.plusMonths(2));
+		
+		LocalTime hour = LocalTime.now();
+		
+		System.out.println(hour);
 		
 		
 		
