@@ -1,4 +1,4 @@
-package bases;
+package com.learningjava.bases;
 
 public class HelloWorld {
 	public static void main(String[] args) {

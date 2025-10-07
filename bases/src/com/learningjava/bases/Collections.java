@@ -1,4 +1,4 @@
-package bases;
+package com.learningjava.bases;
 
 import java.util.ArrayList;
 
